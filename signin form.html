@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dell.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="sign_in_form">
+      <div class="left_signin_form">
+        <div class="dell_logo">
+          <img src="images/dell logo.png" alt="logo" />
+        </div>
+        <h2>Sign In</h2>
+        <br />
+        <button class="Google">
+          <img src="images/google png.png" alt="logo" />Google Sign In
+        </button>
+        <br />
+        <input type="email" placeholder="Email Address" />
+        <br />
+        <input type="password" id="pass_input" placeholder="Password" /><span
+          onmouseup="hidepass()"
+          onmousedown="showpass()"
+          class="eye"
+          ><i class="fa-regular fa-eye fa-lg"></i
+        ></span>
+        <br />
+        <br />
+        <div class="Reset_password">Create or Reset password</div>
+        <br />
+        <button class="signin">Sign In</button>
+        <br />
+        <p class="or">or</p>
+        <br />
+        <button class="send_otp">Send One-time Password</button>
+        <div>
+          <div class="dnt_dell">
+            Don't have a Dell account? <b>Create an account</b>
+          </div>
+        </div>
+      </div>
+
+      <div class="right_signin_form">
+        <h2>Dell Account Benefits</h2>
+        <p class="signup_now">
+          My Account is an easy, more centralized way to manage your tech. Sign
+          Up Now!
+        </p>
+        <div class="tracking_outer">
+          <div>
+            <div class="Tracking_logo"><i class="fa-solid fa-truck"></i></div>
+            <h4>Order Tracking</h4>
+            <br />
+            <p>Manage orders, track shipping status and view support history</p>
+          </div>
+          <div>
+            <div class="envelop_logo">
+              <i class="fa-regular fa-envelope"></i>
+            </div>
+            <h4>Manage Communications</h4>
+            <br />
+            <p>Manage marketing and communications preferences</p>
+          </div>
+          <div>
+            <div class="profile_setting"><i class="fa-solid fa-gear"></i></div>
+            <h4>Profile Setting</h4>
+            <br />
+            <p>
+              Save your favorite payment method and shipping details for quicker
+              checkout
+            </p>
+          </div>
+        </div>
+        <div class="lapyimage"><img src="images/newlapy.avif" alt="" /></div>
+      </div>
+    </section>
+
+    <script src="dell.js"></script>
+  </body>
+</html>
+
+<!-- how to rotate down arrow -->
